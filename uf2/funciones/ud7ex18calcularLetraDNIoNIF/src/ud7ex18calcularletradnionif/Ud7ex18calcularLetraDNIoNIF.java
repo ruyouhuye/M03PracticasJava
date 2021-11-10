@@ -34,6 +34,7 @@ public class Ud7ex18calcularLetraDNIoNIF {
         dni = sc.nextInt();
         letraDniNif = decirLetra(dni);
         System.out.println("La letra de tu DNI/NIF es: " + letraDniNif);
+        System.out.println("a");
     }
 
     public static char decirLetra(int dni) {
